@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     TextView tvWynik, tvLicznik;
     EditText etNum;
     int[] imgTab = {R.drawable.jajko, R.drawable.kurczak, R.drawable.zajaczek};
-    int[] pointTab = {1, 2, 5};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
