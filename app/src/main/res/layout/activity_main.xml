@@ -11,7 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
 
         <ImageView
             android:id="@+id/imageView"
@@ -81,35 +82,35 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/jajko" />
+            app:srcCompat="@drawable/blank" />
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/jajko" />
+            app:srcCompat="@drawable/blank" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/jajko" />
+            app:srcCompat="@drawable/blank" />
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/jajko" />
+            app:srcCompat="@drawable/blank" />
 
         <ImageView
             android:id="@+id/imageView8"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/jajko" />
+            app:srcCompat="@drawable/blank" />
     </LinearLayout>
 
     <EditText
@@ -123,6 +124,13 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0/0"
         android:textSize="24sp" />
 
     <LinearLayout
@@ -143,8 +151,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Sprawdź"
-            android:onClick="onClickCheck"/>
+            android:enabled="false"
+            android:onClick="onClickCheck"
+            android:text="Sprawdź" />
 
         <Button
             android:id="@+id/button3"
